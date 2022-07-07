@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+</head>
+<body>
+    <nav>
+        <header>
+                <div>
+                    <span>IMC</span>
+                </div>
+        </header>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">
+                            <span>Sobre</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="imc.html">
+                            <span>IMC</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="peso-ideal.html">
+                            <span>Peso Ideal</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <section>
+        <main>
+            <div>
+                <div>
+                    <label for="altura">Altura (ex: 1,77)</label>
+                    <input type="number" id="altura" />
+                </div>
+                <div>
+                    <label for="peso">Peso (ex: 63)</label>
+                    <input type="number" id="peso" />
+                </div>
+                
+                <div>
+                    <button onclick="calcIMC()">Calcular</button>
+                </div>
+                    
+                <span id="result"></span>
+            </div>>
+        </main>
+        
+    </section>
+
+    <script src="imc.js"></script>
+
+</body>
+</html>
